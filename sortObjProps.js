@@ -43,12 +43,12 @@ function addToResultObj(str, arr) {
 }
 
 function printObjKeyValues(resultObj) {
-  console.log(Object.keys(mainObjProps).length);
-  console.log(Object.keys(sortedValues).length);
-  console.log(Object.keys(resultObj).length);
+  console.log("Main object props before: ", Object.keys(mainObjProps).length);
+  console.log("Sorted and filtered props: ", Object.keys(sortedValues).length);
+  console.log("Final count of props: ", Object.keys(resultObj).length);
   console.log(
     `Repeated key-value pairs: ${Object.keys(sortedValues).length -
-      Object.keys(resultArr).length}`
+      Object.keys(resultArr).length}\n`
   );
   for (let p in resultObj) {
     console.log(`${p} : ${resultObj[p]}`);
