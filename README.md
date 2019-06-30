@@ -21,3 +21,20 @@ Another way is in file objectForSorting file to remove mine method and  add your
 let mainObjProps = require("./objectForSorting").getTranslationObjEn(); 
 
 where you must change getTranslationObjEn() with your own.</p>
+
+<hr />
+<p>
+There is now second version of the file used ES6 class - <strong>SortObjProperties</strong>
+</p>
+
+<p>
+The main difference between sortObjProps and SortObjProperties is that method getSortedObj() in SortObjProperties file return the real object ready for use. On the other hand printObjKeyValues() function in sortObjProps only print on console.
+</p>
+
+<p>
+The second difference is that in SortObjProperties there is a method called printRepeatedValues() which write on console all repeating values which are not included in final object.
+</p>
+
+<p>
+    <img src="images/SortObjPropertiesResult.png" alt="final result stats" />
+</p>
