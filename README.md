@@ -12,6 +12,9 @@ Properties of object before(these are example properties in objectForSorting fil
       username: "Bernhard78",
       email: "Bernhard_Tremblay@hotmail.com",
       author_quote: '"Hello, world"'
+      
+      
+<img src="images/beforeSortingProperties.png" alt="before sorting" />       
 
 After:
 
@@ -28,6 +31,9 @@ email : Bernhard_Tremblay@hotmail.com,
 username : Bernhard78,
 country : United States of America,
 city : West Dillanville,
+
+
+<img src="images/afterSortingProperties.png" alt="before sorting" /> 
 
 One way to use it is to change  the properties of the mainObject with your own in method getTranslationObjEn in objectForSorting.js file
 
